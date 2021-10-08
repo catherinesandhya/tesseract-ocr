@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 import pytesseract
 from PIL import Image #PIL or python imaging library is used to open images in streamlit as streamlit does not display images directly
-pytesseract.pytesseract.tesseract_cmd='/app/.apt/usr/bin/tesseract'  #for heroku setup
+pytesseract.pytesseract.tesseract_cmd='/app/.apt/usr/bin/tesseract'  #for heroku  setup
 st.set_option('deprecation.showfileUploaderEncoding',False) #Ignores the warning
 st.title("OCR - Optical Character Recognition")
 st.text('Upload the image')  #like write
